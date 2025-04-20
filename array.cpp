@@ -15,13 +15,13 @@ int main()
 
     for(int i = 0; i < 2; i++)
     {
-        cout << "nilai akhir ke =" << i+1 << " = " << nilaiAkhir[i] << endl;
+        cout << "nilai akhir ke- " << i+1 << " = " << nilaiAkhir[i] << endl;
     }
 
     cout << "input grade" << endl;
     for(int i = 0 ; i < 5; i++)
     {
-        cout << "masukkan grade ke =";
+        cout << "masukkan grade ";
         cin >> grade[i];
     }
 
@@ -31,6 +31,6 @@ int main()
 
     for(int i = 0; i < 5; i++)
     {
-        cout << "grade = " << i+1 << grade[i] << endl;
+        cout << "grade = " << grade[i] << endl;
     }
 }
