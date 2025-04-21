@@ -30,11 +30,11 @@ int main()
         cin >> arhero[i].tipe;
         cout << endl;
         cin.ignore();
-        cout << "masukkan skill 1 ";
+        cout << "masukkan skill 1 = ";
         getline(cin , arhero[i].skill.skill1);
-        cout << "masukkan skill 2 ";
+        cout << "masukkan skill 2 = ";
         getline(cin , arhero[i].skill.skill2);
-        cout << "masukkan skill 3 ";
+        cout << "masukkan skill 3 = ";
         getline(cin , arhero[i].skill.skill3);
     }
 
